@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RxRetrofitK</string>
+    <string name="btnLoadTxt">Load</string>
+</resources>
