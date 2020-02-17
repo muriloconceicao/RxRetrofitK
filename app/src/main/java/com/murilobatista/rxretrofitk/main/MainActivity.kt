@@ -14,9 +14,7 @@ class MainActivity : AppCompatActivity(), MainContract.View {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         presenter.view = this
-
         btnGetPosts.setOnClickListener { presenter.getPost() }
-
     }
 
     override fun onDestroy() {

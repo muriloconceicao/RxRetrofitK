@@ -15,4 +15,13 @@ interface MainContract {
         fun getPost()
         fun dettachView()
     }
+
+    interface Interactor {
+        fun getPost()
+    }
+
+    interface InteractorOutput {
+        fun onSuccess(post: Post)
+        fun onFailure(t: Throwable)
+    }
 }
